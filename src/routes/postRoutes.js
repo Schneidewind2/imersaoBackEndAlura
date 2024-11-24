@@ -31,7 +31,7 @@ const routes = (app) => {
     //rota para postar imagem
     app.post("/upload", upload.single("img"), uploadImagem);
 
-    app.put("/upload/:id", atualizarNovoPost)
+    app.put("/upload/:id", atualizarNovoPost);
 
 }
 
